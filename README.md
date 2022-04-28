@@ -20,7 +20,9 @@
 * json 포맷으로 노트 등장시간, 방향을 관리
 
 ![note_info](https://user-images.githubusercontent.com/26218409/165755817-1c962063-0b8e-4ff3-97f9-bb19f961b1c6.png)
+
 * json 데이터를 로드하고 음악 진행상태를 따라 노트 생성
+
 ![note_creat](https://user-images.githubusercontent.com/26218409/165756685-36e1dc46-8d43-4d01-bd14-a3a552e530ca.png)
 
 # 기획서
