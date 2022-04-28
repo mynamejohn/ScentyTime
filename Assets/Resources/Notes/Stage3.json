@@ -1,0 +1,20 @@
+{
+    "Notes": [
+        {
+            "HitTime": 1.0,
+
+            "Index": [ { "Path": 0 } ]
+        },
+        {
+            "HitTime": 1.2,
+
+            "Index": [ { "Path": 0 } ]
+        },
+        {
+            "HitTime": 2.0,
+
+            "Index": [ { "Path": 0 } ]
+        }
+
+    ]
+}

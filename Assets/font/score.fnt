@@ -1,0 +1,18 @@
+info face="Arial" size=32 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=32 base=26 scaleW=256 scaleH=256 pages=5 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="score_0.png"
+page id=1 file="score_1.png"
+page id=2 file="score_2.png"
+page id=3 file="score_3.png"
+page id=4 file="score_4.png"
+chars count=10
+char id=48   x=0     y=0     width=128   height=116   xoffset=0     yoffset=0     xadvance=128   page=0  chnl=15
+char id=49   x=0     y=117   width=128   height=116   xoffset=0     yoffset=0     xadvance=128   page=0  chnl=15
+char id=50   x=0     y=117   width=128   height=116   xoffset=0     yoffset=0     xadvance=128   page=4  chnl=15
+char id=51   x=0     y=0     width=128   height=116   xoffset=0     yoffset=0     xadvance=128   page=4  chnl=15
+char id=52   x=0     y=117   width=128   height=116   xoffset=0     yoffset=0     xadvance=128   page=3  chnl=15
+char id=53   x=0     y=0     width=128   height=116   xoffset=0     yoffset=0     xadvance=128   page=3  chnl=15
+char id=54   x=0     y=117   width=128   height=116   xoffset=0     yoffset=0     xadvance=128   page=2  chnl=15
+char id=55   x=0     y=0     width=128   height=116   xoffset=0     yoffset=0     xadvance=128   page=2  chnl=15
+char id=56   x=0     y=117   width=128   height=116   xoffset=0     yoffset=0     xadvance=128   page=1  chnl=15
+char id=57   x=0     y=0     width=128   height=116   xoffset=0     yoffset=0     xadvance=128   page=1  chnl=15

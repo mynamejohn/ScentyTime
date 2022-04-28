@@ -1,0 +1,28 @@
+{
+    "Stageinfo": [
+        {
+            "Stage": 1,
+            "SongTitle": "Fargo",
+            "isClear": 0,
+            "MaxScore": 0
+        },
+        {
+            "Stage": 2,
+            "SongTitle": "none",
+            "isClear": 0,
+            "MaxScore": 0
+        },
+        {
+            "Stage": 3,
+            "SongTitle": "none",
+            "isClear": 0,
+            "MaxScore": 0
+        }
+    ],
+
+    "asa": [
+        {
+
+        }
+    ]
+}

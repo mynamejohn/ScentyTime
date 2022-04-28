@@ -1,0 +1,31 @@
+{
+    "index": [
+        {
+            "isUnlock": 1,
+            "isClear": 0,
+            "Rank": null,
+            "CurrentScore": null
+        },
+        {
+            "isUnlock": 0,
+            "isClear": 0,
+            "Rank": null,
+            "CurrentScore": null
+        },
+        {
+            "isUnlock": 0,
+            "isClear": 0,
+            "Rank": null,
+            "CurrentScore": null
+        },
+        {
+            "isUnlock": 0,
+            "isClear": 0,
+            "Rank": null,
+            "CurrentScore": null
+        }
+    ],
+    "Select_isFirst": 1,
+    "Play_isFirst": 1,
+    "CurrentStage": 0
+}
