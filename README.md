@@ -59,7 +59,7 @@
     }
     '''
 
-# 기타작업
+# 기타작업 
 * UI, 사운드 애니메이션 등
 # 기획서
 [plan.pdf](https://github.com/mynamejohn/SantyTime/files/8582676/plan.pdf)
