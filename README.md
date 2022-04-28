@@ -26,6 +26,7 @@
 ![note_creat](https://user-images.githubusercontent.com/26218409/165756685-36e1dc46-8d43-4d01-bd14-a3a552e530ca.png)
 
 '''c#
+
 IEnumerator CreatNote(float StreamingSec)
     {
         //MusicPlayer           //PlayerManager
