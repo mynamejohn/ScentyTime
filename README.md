@@ -16,6 +16,11 @@
 ![result-1](https://user-images.githubusercontent.com/26218409/165755051-cb74702c-655c-4294-8848-0ebd589f196f.png)
 ![result-2](https://user-images.githubusercontent.com/26218409/165755053-ef4141ab-2ea9-432e-a71e-3e529fa7ceee.png)
 
+# 뼈대작업
+![note_info](https://user-images.githubusercontent.com/26218409/165755817-1c962063-0b8e-4ff3-97f9-bb19f961b1c6.png)
+* json 포맷으로 노트 등장시간, 방향을 관리
+![note_creat](https://user-images.githubusercontent.com/26218409/165756685-36e1dc46-8d43-4d01-bd14-a3a552e530ca.png)
+* json 데이터를 로드하고 음악 진행상태를 따라 노트 생성
 
 # 기획서
 [plan.pdf](https://github.com/mynamejohn/SantyTime/files/8582676/plan.pdf)
