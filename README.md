@@ -25,5 +25,7 @@
 
 ![note_creat](https://user-images.githubusercontent.com/26218409/165756685-36e1dc46-8d43-4d01-bd14-a3a552e530ca.png)
 
+# 기타작업
+* UI, 사운드 등
 # 기획서
 [plan.pdf](https://github.com/mynamejohn/SantyTime/files/8582676/plan.pdf)
