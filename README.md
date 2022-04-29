@@ -17,7 +17,7 @@
 ![play](https://user-images.githubusercontent.com/26218409/165755047-47672d42-d7a1-4fa3-8c5c-6cacc3f10888.png)
 ![result-1](https://user-images.githubusercontent.com/26218409/165755051-cb74702c-655c-4294-8848-0ebd589f196f.png)
 ![result-2](https://user-images.githubusercontent.com/26218409/165755053-ef4141ab-2ea9-432e-a71e-3e529fa7ceee.png)
-https://www.youtube.com/watch?v=9ybxOZ83q8E&ab_channel=%EC%A0%95%EC%97%B0%ED%9D%AC
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9ybxOZ83q8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 뼈대작업
 * json 포맷으로 노트 등장시간, 방향을 관리
