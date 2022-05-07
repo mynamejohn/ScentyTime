@@ -1,4 +1,4 @@
-# SantyTime
+# ScentyTime
 ![Title](https://user-images.githubusercontent.com/26218409/165750404-9f2565eb-e1bb-457f-add6-4a10696ff999.png)
 
 
