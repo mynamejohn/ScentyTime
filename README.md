@@ -30,33 +30,39 @@
 ![note_creat](https://user-images.githubusercontent.com/26218409/165756685-36e1dc46-8d43-4d01-bd14-a3a552e530ca.png)
 
 ``` C#
-    IEnumerator CreatNote(float StreamingSec)
+
+IEnumerator CreatNote(float StreamingSec)
+{
+    //MusicPlayer           //PlayerManager
+    MP.PlayMusic(stages_song[PM.stagenum]);
+
+                        //ObjectCnt = JD["Notes"].Count;
+    for (int i = 0; i < ObjectCnt; i++)
     {
-        //MusicPlayer           //PlayerManager
-        MP.PlayMusic(stages_song[PM.stagenum]);
+        actualNoteCnt = JD["Notes"][i]["Index"].Count;
+        hitTime = float.Parse(JD["Notes"][i]["HitTime"].ToString());
 
-                            //ObjectCnt = JD["Notes"].Count;
-        for (int i = 0; i < ObjectCnt; i++)
+        yield return new WaitUntil(() => musicTime >= hitTime-1f);
+
+        for (int j = 0; j < actualNoteCnt; j++)
         {
-            actualNoteCnt = JD["Notes"][i]["Index"].Count;
-            hitTime = float.Parse(JD["Notes"][i]["HitTime"].ToString());
+            yield return new WaitUntil(() => PM.isPlaying);
+            GameObject newNote = Instantiate(Note, new Vector3(0,-30,0), Quaternion.identity);
+            newNote.transform.SetParent(ParantNote.transform);
+            newNote.transform.localScale = new Vector3(1,1,1);
+            newNote.transform.localPosition = new Vector3(0, -30, 0);
 
-            yield return new WaitUntil(() => musicTime >= hitTime-1f);
-
-            for (int j = 0; j < actualNoteCnt; j++)
-            {
-                yield return new WaitUntil(() => PM.isPlaying);
-                GameObject newNote = Instantiate(Note, new Vector3(0,-30,0), Quaternion.identity);
-                newNote.transform.SetParent(ParantNote.transform);
-                newNote.transform.localScale = new Vector3(1,1,1);
-                newNote.transform.localPosition = new Vector3(0, -30, 0);
-
-                newNote.GetComponent<Notes>().SetNote(int.Parse(JD["Notes"][i]["Index"][j]["Path"].ToString()), notespeed);
-                total_notes++;
-            }
+            newNote.GetComponent<Notes>().SetNote(int.Parse(JD["Notes"][i]["Index"][j]["Path"].ToString()), notespeed);
+            total_notes++;
         }
+    }
 
         yield return new WaitUntil(()=> !MP.AS.isPlaying);
         PM.EndSong(total_notes);
-    }
-'''
+}
+```
+# 기타작업 
+* UI, 사운드 애니메이션 등
+# 기획서
+[plan.pdf](https://github.com/mynamejohn/SantyTime/files/8582676/plan.pdf)
+
