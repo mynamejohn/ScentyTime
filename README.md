@@ -31,21 +31,18 @@
 
 ``` C#
 
-IEnumerator CreatNote(float StreamingSec) 
-{
+IEnumerator CreatNote(float StreamingSec) {
     //MusicPlayer           //PlayerManager
     MP.PlayMusic(stages_song[PM.stagenum]);
-
+    
                         //ObjectCnt = JD["Notes"].Count;
-    for (int i = 0; i < ObjectCnt; i++)
-    {
+    for (int i = 0; i < ObjectCnt; i++)    {
         actualNoteCnt = JD["Notes"][i]["Index"].Count;
         hitTime = float.Parse(JD["Notes"][i]["HitTime"].ToString());
 
         yield return new WaitUntil(() => musicTime >= hitTime-1f);
 
-        for (int j = 0; j < actualNoteCnt; j++)
-        {
+        for (int j = 0; j < actualNoteCnt; j++)        {
             yield return new WaitUntil(() => PM.isPlaying);
             GameObject newNote = Instantiate(Note, new Vector3(0,-30,0), Quaternion.identity);
             newNote.transform.SetParent(ParantNote.transform);
