@@ -60,7 +60,7 @@ IEnumerator CreatNote(float StreamingSec) {
 ```
 # 기타작업 
 * UI, 사운드 애니메이션 등
-# 기획서, 
+# 기획서, 빌드
 [plan.pdf](https://github.com/mynamejohn/SantyTime/files/8582676/plan.pdf)
 [build.apk](https://drive.google.com/file/d/13oNEx2PRlKtHonSTKZE9L6V2yiAR6TXQ/view?usp=sharing)
 
